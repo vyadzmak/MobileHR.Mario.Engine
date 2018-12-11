@@ -1,5 +1,9 @@
 #system custom ignore
-.idea/ 
+.idea/
+logs/
+data/
+schemas/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
