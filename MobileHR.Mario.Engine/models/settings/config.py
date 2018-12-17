@@ -18,7 +18,6 @@ configs_dir_full_path =""
 #logs dir name
 configs_dir_name ="configs"
 
-
 # engine version code
 version_code = "0.1"
 
@@ -46,7 +45,6 @@ build_code_file_name = "build_code.json"
 
 #logging config file full pat
 build_code_file_full_path = ""
-
 
 # all versions
 versions_container = [
@@ -161,7 +159,7 @@ def init_config():
         if (show_system_info_on_start == True):
             show_system_info()
 
-        logging.info("Config init successfull")
+        logging.info("Config init successful")
 
     except Exception as e:
         logging.error(str(e))
